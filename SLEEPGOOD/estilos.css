@@ -1,0 +1,81 @@
+<!--A continuación se relacionan las etiquetas de los estilos CSS para el contenido de la página-->
+<!--diseño de ajuste para cada parte de la información de la pagina-->
+#container{
+<!--Porcentajes para el ancho y alto de la caja de contenido principal-->
+width: 1170px;
+margin: 0px auto;
+border: 1px solid;
+}
+header{
+background: #F95D50;
+heigh: 2000px;
+width: 1850px;
+border: 0px solid;
+color: white;
+border-bottom: 5px dashed;
+}
+nav{
+background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  ), url("IMG1.jpg");
+height: 200px;
+border-bottom: 0px solid;
+}
+nav ul li{
+float: left;
+list-style: none;
+margin: 90px;
+}
+.clearfix{
+clear:both;
+}
+#content{
+float: left;
+width: 66.5%;
+min-height: 500px;
+background-image: linear-gradient(
+    to bottom,
+    rgba(0, 255, 255, 0.5),
+    rgba(255, 153, 0, 0.5)
+  );
+padding: 20px;
+}
+aside{
+float: left;
+width: 23%;
+min-height: 908px;
+background-image: linear-gradient(
+    to bottom,
+    rgba(221, 236, 236, 0.5),
+    rgba(234, 228, 219, 0.5)
+  ), url("IMG2.JPG");
+padding: 24px;
+}
+footer{
+background: black;
+color: white;
+text-align: center;
+height: 50px;
+line-height: 50px; 
+}
+.article{
+color: black;
+margin-top: 15 px;
+margin-bottom: 15px;
+padding-bottom: 0px;
+border-bottom: 1px solid #eee;
+}
+.image-fondo {
+	background-image: url("fondo1.jpg");
+}
+
+.cabecera{
+	lighting-color: #fff;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: #111 0px 0px 10px;
+}
